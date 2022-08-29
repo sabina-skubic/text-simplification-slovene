@@ -10,7 +10,7 @@ To increase the accessibility and diversity of easy reading in Slovenian, we cre
 - download data testna.json, evalvacijska.json and ucna.json
 - run t5-lahkobranje.sh to reproduce the results of the paper Gorenc_magistrsko-delo.pdf
 
-To see the demo of our results see the file demo.rtf.
+Examples of our simplified texts can be seen in demo.rtf.
 ______________________
 
 Za povečanje dostopnosti in raznovrstnosti lahkega branja v slovenščini, smo izdelali prototip sistema, ki avtomatsko poenostavlja besedila. To je prvi sistem za samodejno pretvarjanje slovenskih povedi in besedil v enostavnejšo obliko. Pripravili smo podatkovno množico za slovenski jezik s poravnanimi enostavnimi in kompleksnimi stavki, ki se jo bo lahko uporabilo za nadaljne razvijanje modelov za poenostavljanje besedil v slovenščini. Uporabljamo T5 model za slovenski jezik, poimenovan SloT5, ki sta ga izdelala Ulčar in Robnik-Šikonja (2022) za nalogi razšumljanje in maskiranje delov besedila: https://huggingface.co/cjvt/legacy-t5-sl-small. Uporabimo knjižnico HuggingFace. Za iskanje optimalnih vrednosti hiperparametrov in evalvacijo uspešnosti sistema smo uporabili avtomatske mere ROUGE in BERTScore.
@@ -23,4 +23,4 @@ Za povečanje dostopnosti in raznovrstnosti lahkega branja v slovenščini, smo 
 - prenesi podatkovne množice testna.json, evalvacijska.json in ucna.json
 - da bi ponovili rezultate iz Gorenc_magistrsko-delo.pdf zaženite t5-lahkobranje.sh 
 
-Za vpogled naših rezultatov, odpri datoteko demo.rtf.
+Primeri naših avtomatskih poenostavitev so v demo.rtf.
