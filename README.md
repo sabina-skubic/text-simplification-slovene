@@ -21,6 +21,6 @@ Za povečanje dostopnosti in raznovrstnosti lahkega branja v slovenščini, smo 
 - inštaliraj HuggingFace library (in morebitne druge knjižnice)
 - inštaliraj prednaučen T5 model https://huggingface.co/cjvt/legacy-t5-sl-small
 - prenesi podatkovne množice testna.json, evalvacijska.json in ucna.json
-- da bi ponovili rezultate iz Gorenc_magistrsko-delo.pdf zaženite t5-lahkobranje.sh 
+- da bi ponovili rezultate iz Gorenc_magistrsko-delo.pdf, zaženite t5-lahkobranje.sh 
 
 Primeri naših avtomatskih poenostavitev so v demo.rtf.
